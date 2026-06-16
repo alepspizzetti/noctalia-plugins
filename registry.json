@@ -1,4 +1,22 @@
 {
   "version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "whatsapp-web",
+      "name": "WhatsApp Web",
+      "version": "1.0.0",
+      "official": false,
+      "author": "Alessandro",
+      "description": "Open WhatsApp Web inside a Noctalia panel.",
+      "repository": "https://github.com/alepspizzetti/noctalia-plugins",
+      "minNoctaliaVersion": "4.6.6",
+      "license": "MIT",
+      "tags": [
+        "Bar",
+        "Panel",
+        "Utility"
+      ],
+      "lastUpdated": "2026-06-16T20:01:54.654Z"
+    }
+  ]
 }

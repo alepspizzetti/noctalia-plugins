@@ -1,0 +1,47 @@
+{
+  "widget": {
+    "tooltip": "WhatsApp Web"
+  },
+  "menu": {
+    "settings": "Widget settings"
+  },
+  "panel": {
+    "title": "WhatsApp Web",
+    "back": "Back",
+    "forward": "Forward",
+    "reload": "Reload",
+    "loading": "Loading WhatsApp Web",
+    "statusReady": "Ready",
+    "statusLoading": "Loading",
+    "statusLoadFailed": "Could not load WhatsApp Web",
+    "statusCrashed": "The embedded browser process crashed"
+  },
+  "settings": {
+    "iconColor": {
+      "label": "Icon color",
+      "description": "Color used for the bar button."
+    },
+    "panelPosition": {
+      "label": "Panel position",
+      "description": "Where the floating WhatsApp panel should appear."
+    },
+    "panelWidth": {
+      "label": "Panel width"
+    },
+    "panelHeight": {
+      "label": "Panel height",
+      "description": "Current value: {value}% of the screen height."
+    },
+    "zoom": {
+      "label": "Zoom",
+      "description": "Current value: {value}%."
+    },
+    "positions": {
+      "top": "Top",
+      "bottom": "Bottom",
+      "left": "Left",
+      "right": "Right",
+      "center": "Center"
+    }
+  }
+}
