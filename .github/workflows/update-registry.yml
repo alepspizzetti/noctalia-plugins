@@ -1,0 +1,27 @@
+name: Update registry
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "*/manifest.json"
+      - ".github/workflows/update-registry.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate registry
+        run: node scripts/update-registry.js
+      - name: Commit registry
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update plugin registry"
