@@ -1,0 +1,152 @@
+{
+  "widget": {
+    "tooltip": "Abrir BindHub"
+  },
+  "menu": {
+    "settings": "Configurações"
+  },
+  "panel": {
+    "title": "BindHub",
+    "badge": "Protótipo",
+    "description": "O BindHub agora salva e executa hotkeys e macros com foco em Niri, mantendo a automação dentro do fluxo do Noctalia.",
+    "cards": {
+      "hotkeys": {
+        "title": "Hotkeys",
+        "description": "{count} entradas configuradas prontas para uso."
+      },
+      "macros": {
+        "title": "Macros",
+        "description": "{count} rotinas salvas com ações ordenadas."
+      },
+      "niri": {
+        "title": "Ações do Niri",
+        "description": "Ações planejadas com foco em Niri, como focar, mover, flutuar, centralizar e redimensionar."
+      }
+    },
+    "preview": {
+      "hotkeys": "Prévia de hotkeys",
+      "macros": "Prévia de macros"
+    },
+    "empty": {
+      "hotkeys": "Nenhuma hotkey foi configurada ainda.",
+      "macros": "Nenhuma macro foi configurada ainda."
+    },
+    "unnamed": {
+      "hotkey": "Hotkey sem nome",
+      "macro": "Macro sem nome"
+    },
+    "unset": {
+      "trigger": "Gatilho não gravado",
+      "payload": "Alvo não definido",
+      "macro": "Macro não selecionada"
+    },
+    "hotkey": {
+      "macroTarget": "Executa a macro: {macro}",
+      "actionTarget": "{action}: {target}"
+    },
+    "macro": {
+      "stepCount": "{count} ações",
+      "firstAction": "Primeira ação: {action} -> {target}",
+      "noActions": "A macro ainda não possui ações."
+    }
+  },
+  "settings": {
+    "summary": "Configure hotkeys e macros para o BindHub e salve quando concluir as alterações desta seção.",
+    "iconColor": {
+      "label": "Cor do ícone",
+      "description": "Controla a cor de destaque do widget da barra."
+    },
+    "common": {
+      "save": "Salvar",
+      "enabled": "Habilitado",
+      "disabled": "Desabilitado"
+    },
+    "hotkeys": {
+      "title": "Hotkeys",
+      "add": "Adicionar hotkey",
+      "test": "Testar hotkey",
+      "save": "Salvar hotkey",
+      "empty": "Crie hotkeys aqui primeiro. Elas serão persistidas nas configurações do plugin e consumidas depois pelo backend de execução.",
+      "itemTitle": "Hotkey #{number}",
+      "summary": {
+        "text": "{trigger} • {mode} • {status}",
+        "unsetTrigger": "Sem gatilho"
+      },
+      "name": {
+        "label": "Nome da hotkey",
+        "description": "Rótulo curto para identificar esta automação."
+      },
+      "trigger": {
+        "label": "Gatilho",
+        "description": "Grave a combinação de teclas que deve ativar esta entrada no futuro."
+      },
+      "mode": {
+        "label": "Modo de destino",
+        "description": "Escolha se este gatilho executa uma ação direta ou uma macro salva.",
+        "action": "Ação direta",
+        "macro": "Macro salva"
+      },
+      "actionType": {
+        "label": "Tipo de ação",
+        "description": "O MVP atual apenas armazena a definição da ação para um backend futuro."
+      },
+      "payload": {
+        "label": "Alvo da ação",
+        "description": "Comando, URL ou mensagem, dependendo do tipo de ação selecionado."
+      },
+      "macro": {
+        "label": "Macro",
+        "description": "Selecione qual macro salva deve ser executada por este gatilho."
+      },
+      "macroFallback": "Macro sem nome",
+      "enabled": {
+        "label": "Estado de habilitação",
+        "description": "Marca se esta hotkey deve ser considerada ativa quando o backend existir."
+      }
+    },
+    "macros": {
+      "title": "Macros",
+      "add": "Adicionar macro",
+      "test": "Testar macro",
+      "save": "Salvar macro",
+      "summary": "{count} ações • {status}",
+      "empty": "Ainda não há macros. Uma macro armazena ações ordenadas que depois podem ser ligadas a uma hotkey.",
+      "itemTitle": "Macro #{number}",
+      "name": {
+        "label": "Nome da macro",
+        "description": "Nome usado na seleção de hotkeys e nos resumos do painel."
+      },
+      "enabled": {
+        "label": "Estado de habilitação",
+        "description": "Marca se esta macro deve ser considerada ativa pelo backend futuro."
+      },
+      "actions": {
+        "title": "Ações",
+        "add": "Adicionar ação",
+        "itemTitle": "Ação #{number}",
+        "type": {
+          "label": "Tipo de ação",
+          "description": "O BindHub executará estas ações em ordem quando o backend estiver conectado."
+        },
+        "value": {
+          "label": "Valor da ação",
+          "description": "Comando, URL ou mensagem associada a esta ação."
+        },
+        "delay": {
+          "label": "Atraso após a ação (ms)"
+        }
+      }
+    }
+  },
+  "common": {
+    "remove": "Remover",
+    "unknown": "Desconhecido",
+    "action": {
+      "runCommand": "Executar comando",
+      "openUrl": "Abrir URL",
+      "notify": "Notificar",
+      "typeText": "Digitar texto",
+      "delay": "Atraso"
+    }
+  }
+}

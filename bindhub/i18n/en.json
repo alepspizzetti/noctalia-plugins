@@ -1,0 +1,152 @@
+{
+  "widget": {
+    "tooltip": "Open BindHub"
+  },
+  "menu": {
+    "settings": "Settings"
+  },
+  "panel": {
+    "title": "BindHub",
+    "badge": "Prototype",
+    "description": "BindHub now saves and runs hotkeys and macros with a Niri-first workflow inside Noctalia.",
+    "cards": {
+      "hotkeys": {
+        "title": "Hotkeys",
+        "description": "{count} configured entries ready to use."
+      },
+      "macros": {
+        "title": "Macros",
+        "description": "{count} saved routines with ordered actions."
+      },
+      "niri": {
+        "title": "Niri Actions",
+        "description": "Planned Niri-first window operations such as focus, move, float, center, and resize."
+      }
+    },
+    "preview": {
+      "hotkeys": "Hotkey preview",
+      "macros": "Macro preview"
+    },
+    "empty": {
+      "hotkeys": "No hotkeys have been configured yet.",
+      "macros": "No macros have been configured yet."
+    },
+    "unnamed": {
+      "hotkey": "Unnamed hotkey",
+      "macro": "Unnamed macro"
+    },
+    "unset": {
+      "trigger": "Trigger not recorded",
+      "payload": "Target not set",
+      "macro": "Macro not selected"
+    },
+    "hotkey": {
+      "macroTarget": "Runs macro: {macro}",
+      "actionTarget": "{action}: {target}"
+    },
+    "macro": {
+      "stepCount": "{count} actions",
+      "firstAction": "First action: {action} -> {target}",
+      "noActions": "Macro has no actions yet."
+    }
+  },
+  "settings": {
+    "summary": "Configure hotkeys and macros for BindHub and save when you finish editing this section.",
+    "iconColor": {
+      "label": "Icon color",
+      "description": "Controls the bar widget accent color."
+    },
+    "common": {
+      "save": "Save",
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    },
+    "hotkeys": {
+      "title": "Hotkeys",
+      "add": "Add hotkey",
+      "test": "Test hotkey",
+      "save": "Save hotkey",
+      "empty": "Create hotkeys here first. They will be persisted in plugin settings and later consumed by the execution backend.",
+      "itemTitle": "Hotkey #{number}",
+      "summary": {
+        "text": "{trigger} • {mode} • {status}",
+        "unsetTrigger": "No trigger"
+      },
+      "name": {
+        "label": "Hotkey name",
+        "description": "Short label to identify the automation entry."
+      },
+      "trigger": {
+        "label": "Trigger",
+        "description": "Record the key combination that should activate this entry later."
+      },
+      "mode": {
+        "label": "Target mode",
+        "description": "Choose whether this trigger runs a direct action or a saved macro.",
+        "action": "Direct action",
+        "macro": "Saved macro"
+      },
+      "actionType": {
+        "label": "Action type",
+        "description": "Current MVP stores the target action definition for a future backend."
+      },
+      "payload": {
+        "label": "Action target",
+        "description": "Command, URL, or message depending on the selected action type."
+      },
+      "macro": {
+        "label": "Macro",
+        "description": "Select which saved macro should run for this trigger."
+      },
+      "macroFallback": "Unnamed macro",
+      "enabled": {
+        "label": "Enabled state",
+        "description": "Marks whether this hotkey should be considered active when the backend exists."
+      }
+    },
+    "macros": {
+      "title": "Macros",
+      "add": "Add macro",
+      "test": "Test macro",
+      "save": "Save macro",
+      "summary": "{count} actions • {status}",
+      "empty": "No macros yet. A macro stores ordered actions that can later be attached to a hotkey.",
+      "itemTitle": "Macro #{number}",
+      "name": {
+        "label": "Macro name",
+        "description": "Name used in hotkey selection and panel summaries."
+      },
+      "enabled": {
+        "label": "Enabled state",
+        "description": "Marks whether this macro should be considered active by the future backend."
+      },
+      "actions": {
+        "title": "Actions",
+        "add": "Add action",
+        "itemTitle": "Action #{number}",
+        "type": {
+          "label": "Action type",
+          "description": "BindHub will execute these actions in order once the backend is connected."
+        },
+        "value": {
+          "label": "Action value",
+          "description": "Command, URL, or message associated with this action."
+        },
+        "delay": {
+          "label": "Delay after action (ms)"
+        }
+      }
+    }
+  },
+  "common": {
+    "remove": "Remove",
+    "unknown": "Unknown",
+    "action": {
+      "runCommand": "Run command",
+      "openUrl": "Open URL",
+      "notify": "Notify",
+      "typeText": "Type text",
+      "delay": "Delay"
+    }
+  }
+}

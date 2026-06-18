@@ -1,0 +1,1 @@
+"""Hotkey support for BindHub."""

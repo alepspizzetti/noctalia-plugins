@@ -12,7 +12,7 @@ Personal plugin registry for Noctalia Shell.
 
 ## Plugins
 
-No plugins yet.
+- `BindHub` - automation plugin for hotkeys, macros, and Niri-oriented actions
 
 ## Development
 
@@ -30,3 +30,8 @@ When you add a plugin folder with a valid `manifest.json`, run:
 ```bash
 node scripts/update-registry.js
 ```
+
+Additional authoring guidance lives in:
+
+- [docs/noctalia-plugin-development-guide.md](docs/noctalia-plugin-development-guide.md)
+- [docs/noctalia-plugin-publishing-checklist.md](docs/noctalia-plugin-publishing-checklist.md)

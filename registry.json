@@ -1,4 +1,24 @@
 {
   "version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "bindhub",
+      "name": "BindHub",
+      "version": "0.1.0",
+      "official": false,
+      "author": "Alessandro",
+      "description": "Automation hub for hotkeys, macros, and Niri actions.",
+      "repository": "https://github.com/alepspizzetti/noctalia-plugins",
+      "minNoctaliaVersion": "4.6.6",
+      "license": "MIT",
+      "tags": [
+        "Automation",
+        "Niri",
+        "Utility",
+        "Panel",
+        "Bar"
+      ],
+      "lastUpdated": "2026-06-18T17:09:02.920Z"
+    }
+  ]
 }

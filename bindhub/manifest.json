@@ -1,0 +1,29 @@
+{
+  "id": "bindhub",
+  "name": "BindHub",
+  "version": "0.1.0",
+  "minNoctaliaVersion": "4.6.6",
+  "author": "Alessandro",
+  "license": "MIT",
+  "repository": "https://github.com/alepspizzetti/noctalia-plugins",
+  "description": "Automation hub for hotkeys, macros, and Niri actions.",
+  "tags": ["Automation", "Niri", "Utility", "Panel", "Bar"],
+  "entryPoints": {
+    "main": "Main.qml",
+    "barWidget": "ui/BarWidget.qml",
+    "panel": "ui/Panel.qml",
+    "settings": "ui/Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "schemaVersion": 1,
+      "enabled": true,
+      "iconColor": "primary",
+      "hotkeys": [],
+      "macros": []
+    }
+  }
+}
