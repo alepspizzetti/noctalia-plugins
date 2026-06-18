@@ -3,10 +3,10 @@
   "name": "BindHub",
   "version": "0.1.0",
   "minNoctaliaVersion": "4.6.6",
-  "author": "Alessandro",
+  "author": "Alessandro Pizzetti",
   "license": "MIT",
   "repository": "https://github.com/alepspizzetti/noctalia-plugins",
-  "description": "Automation hub for hotkeys, macros, and Niri actions.",
+  "description": "Automation plugin for hotkeys, macros, and Niri hotkey sync.",
   "tags": ["Automation", "Niri", "Utility", "Panel", "Bar"],
   "entryPoints": {
     "main": "Main.qml",

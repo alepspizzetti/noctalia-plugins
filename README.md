@@ -12,7 +12,7 @@ Personal plugin registry for Noctalia Shell.
 
 ## Plugins
 
-- `BindHub` - automation plugin for hotkeys, macros, and Niri-oriented actions
+- `BindHub` - automation plugin for hotkeys, macros, and Niri hotkey sync
 
 ## Development
 

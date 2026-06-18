@@ -2,7 +2,7 @@
 
 ## PT-BR
 
-O BindHub e um plugin de automacao para o Noctalia focado em hotkeys, macros e acoes ligadas ao Niri.
+O BindHub e um plugin de automacao para o Noctalia focado em hotkeys, macros e sincronizacao de hotkeys com o Niri.
 
 ### Estado Atual
 
@@ -49,7 +49,7 @@ A organizacao atual do plugin esta documentada em [docs/ARCHITECTURE.md](./docs/
 
 ## EN
 
-BindHub is a Noctalia automation plugin focused on hotkeys, macros, and Niri-oriented actions.
+BindHub is a Noctalia automation plugin focused on hotkeys, macros, and Niri hotkey synchronization.
 
 ### Current Status
 
